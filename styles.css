@@ -1,5 +1,7 @@
 body {
-    /* display: flex; */
+    display: flex;
+    flex-direction: column;
+    flex: 1;
     background-color: #1F2937;
 }
 
@@ -45,7 +47,7 @@ ul {
     /* flex-direction: column; */
     /* justify-content: center; */
     align-items: center;
-    margin: 150px;
+    margin: 130px;
 }
 
 .text-header-big p{
@@ -76,4 +78,9 @@ ul {
 
 .image{
     float: right;
+}
+
+.middle-section{
+    background-color: #f9faf8;
+    display: flex;
 }
